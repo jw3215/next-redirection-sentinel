@@ -8,7 +8,7 @@
 
 ```javascript
 const pathMap = {
-	"http://localhost:3000": "http://my-site.com",
+  "http://localhost:3000": "http://my-site.com",
 };
 ```
 
@@ -27,14 +27,14 @@ http://localhost:3000/users/1 -> http://my-site.com/users/1
 
 ```tsx
 export default function Page() {
-	const pathMap = {
-		"https://google.com": "https://naver.com",
-	};
+  const pathMap = {
+    "https://google.com": "https://naver.com",
+  };
 
-	return (
-		<RedirectionSentinelBoundary pathMap={pathMap}>
-			<SomeChildElement />
-		</RedirectionSentinelBoundary>
-	);
+  return (
+    <RedirectionSentinelBoundary pathMap={pathMap}>
+      <SomeChildElement />
+    </RedirectionSentinelBoundary>
+  );
 }
 ```
