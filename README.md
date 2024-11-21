@@ -2,7 +2,7 @@
 
 - Next.js App router에서 `redirect()` 함수로 발생하는 리디렉션을 조작하는 코드입니다.
 - React Error Boundary 컨벤션을 따릅니다.
-- pathMap의 key와 일치하는 문자열을 value로 치환합니다.
+- `pathMap`의 key와 일치하는 문자열을 value로 치환합니다.
 
 에를 들어 이런 `pathMap`이 주어진다면
 
