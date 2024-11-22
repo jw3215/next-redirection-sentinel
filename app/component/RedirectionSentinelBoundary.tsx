@@ -1,5 +1,3 @@
-'use client'
-
 import { Component } from 'react'
 
 interface Props {
